@@ -1,0 +1,50 @@
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+import java.util.List;
+import java.util.ArrayList;
+
+class Main {
+  public static void main(String[] args) {
+
+    //SET E HashSet
+    /*Set<Integer>numeros;
+    numeros = new HashSet<Integer>();
+    numeros.add(2);
+    numeros.add(5);
+    numeros.add(3);
+    numeros.add(9);
+    numeros.add(2);
+    numeros.add(4);
+    numeros.add(3);
+    numeros.add(8);
+    numeros.add(5);
+    
+    Iterator<Integer> iter = numeros.iterator();
+    while(iter.hasNext())
+    {
+      Integer temp = iter.next();
+      System.out.println("numeros = "+temp);
+    }*/
+    
+    //LIST E Arraylist
+    List<Integer>numeros;
+    numeros = new ArrayList<Integer>();
+    numeros.add(2);
+    numeros.add(5);
+    numeros.add(3);
+    numeros.add(9);
+    numeros.add(2);
+    numeros.add(4);
+    numeros.add(3);
+    numeros.add(8);
+    numeros.add(5);
+    
+    Iterator<Integer> iter = numeros.iterator();
+    while(iter.hasNext())
+    {
+      Integer temp = iter.next();
+      System.out.println("numeros = "+temp);
+    }
+  }
+}
