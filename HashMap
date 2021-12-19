@@ -1,0 +1,42 @@
+import java.util.HashMap;
+import java.util.Map;
+
+import org.omg.PortableInterceptor.ForwardRequest;
+
+import java.util.Arrays;
+
+class Main {
+  public static HashMap freq (String b)
+  {
+    HashMap<String,Integer> map = new HashMap();
+    String[] textoSeparado = b.split(" ");
+    for(String palavra:textoSeparado)
+    {
+      System.out.println(palavra);
+    }
+    return palavra;
+  }
+  public static void main(String[] args) 
+  {
+    Map<String,String> exemplo = new HashMap<String,String>();
+    exemplo.put("K1", new String ("Hello"));
+    exemplo.put("K2", new String("Its"));
+    exemplo.put("K3", new String("Me"));
+
+    String keyToSearch = "K1";
+    if(exemplo.containsKey( keyToSearch ))
+    {
+      System.out.println("Valor da chave "+keyToSearch+"="+exemplo.get(keyToSearch));
+    }
+    else
+    {
+      System.out.println("Chave não existe");
+    }
+    String b = "Hello Dark";
+    //String[] textoSeparado = b.split(" ");
+    //System.out.println(Arrays.toString(textoSeparado));
+    //System.out.println("Texto: "+textoSeparado[0]+", "+textoSeparado[1]);
+
+  }
+}
+
